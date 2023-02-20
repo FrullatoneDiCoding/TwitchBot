@@ -16,6 +16,9 @@ PASS = config['PASS']
 
 
 
+print("test per commit")
+
+
 class Bot(object):
     def __init__(self, channel, n_msg_per_sec=100):
         super(Bot, self).__init__()
